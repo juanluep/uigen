@@ -42,11 +42,15 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
 
           custom_instructions: |
-            The project is already set up with all dependencies installed.
-            The server is already running at localhost:3000. Logs from it 
-            are beign written to logs.txt. if needed, you can query the 
-            db with the 'sqlite3' cli. if needed, use the mcp_playwright
-            set of tools to launch a browser and interact with the app.
+            El proyecto ya está configurado con todas las dependencias instaladas. 
+            El servidor ya se está ejecutando en localhost:3000. 
+            Los logs se están escribiendo en logs.txt. 
+            Si es necesario, puedes realizar consultas a la base de datos 
+            con la CLI de 'sqlite3'. 
+            Si es necesario, utiliza el conjunto de herramientas de 
+            mcp_playwright para lanzar un navegador e interactuar con la aplicación.
+            Debes contestar y hacer todos los comentarios en castellano, así como
+            las comunicaciones con el usuario.
 
           mcp_config: |
             {
